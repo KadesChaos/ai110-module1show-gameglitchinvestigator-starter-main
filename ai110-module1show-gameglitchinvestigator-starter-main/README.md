@@ -26,18 +26,21 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+- The game's purpose is a simple number guessing game where there is a predetermined answe, and the user has to figure out the number based on "higher" and "lower" hints.
 - [ ] Detail which bugs you found.
+- the hints were wrong, The answer kept changing and the score was calculated incorrectly.
 - [ ] Explain what fixes you applied.
+-  I fixed all the issues said above.
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. User enters a number guess from 1-100
+2. Game returns too high or too low.
+3. User enters new guess
+4. Score updates.
+5. If user guesses the correct number in the limited number of attempts game shows win screen.
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
